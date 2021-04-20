@@ -1,0 +1,51 @@
+body {
+    background-color: lightgray;
+}
+h1 {
+    font-size: 64px;
+    margin:20px;
+}
+h2 {
+    font-size: 40px;
+    margin:40px;
+}
+
+.orange-circle {
+    width: 105px;
+    height: 105px;
+    background-color:#E6563B;
+}
+
+.green-circle {
+    width: 105px;
+    height: 105px;
+    background-color:#7CB06C;
+}
+
+.yellow-circle {
+    width: 105px;
+    height: 105px;
+    background-color:#DEA03D;
+}
+
+.blue-circle {
+    width: 105px;
+    height: 105px;
+    background-color:#00ABA9;
+}
+#orange-circle {
+    align-items: center;
+}
+#green-circle {
+    align-items: center;
+}
+#yellow-circle {
+    align-items: center;
+}
+#blue-circle {
+    align-items: center;
+}
+.rounded-circle {
+    border: solid 6px #FFF;
+    color:#FFF;
+}
