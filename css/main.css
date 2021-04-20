@@ -63,32 +63,43 @@ h4{
 .large-margin{
     margin-bottom: 100px;
 }
-#apple-ipad{
+img {
     border-radius: 25px;
     border: solid #E6E6E6 15px;
 }
-#orange-icon {
+@media screen and (max-width:500px) {
+    #macbook{
+        display:none;
+    }
+    #man{
+        display:none;
+    }
+    #security{
+        display:none;
+    }
+}
+.orange-icon {
     width: 18px;
     height: 18px;
     background-color: #E6563B;
     font-weight: bolder;
     align-items: center;
 }
-#yellow-icon {
+.yellow-icon {
     width: 18px;
     height: 18px;
     background-color: #DEA03D;
     font-weight: bolder;
     align-items: center;
 }
-#green-icon {
+.green-icon {
     width: 18px;
     height: 18px;
     background-color: #7CB06C;
     font-weight: bolder;
     align-items: center;
 }
-#blue-icon {
+.blue-icon {
     width: 18px;
     height: 18px;
     background-color: #00ABA9;
