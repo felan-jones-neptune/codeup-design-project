@@ -60,6 +60,9 @@ h4{
 .rounded-circle {
 
 }
+.large-margin{
+    margin-bottom: 100px;
+}
 #apple-ipad{
     border-radius: 25px;
     border: solid #E6E6E6 15px;
