@@ -1,5 +1,6 @@
 body {
     background-color: lightgray;
+    font-family: 'Abel', sans-serif;
 }
 h1 {
     font-size: 64px;
@@ -8,6 +9,9 @@ h1 {
 h2 {
     font-size: 40px;
     margin:40px;
+}
+h4{
+    font-size: 32px;
 }
 
 .orange-circle {
@@ -35,17 +39,56 @@ h2 {
 }
 #orange-circle {
     align-items: center;
+    border: solid 6px #FFF;
+    color:#FFF;
 }
 #green-circle {
     align-items: center;
+    border: solid 6px #FFF;
+    color:#FFF;
 }
 #yellow-circle {
     align-items: center;
+    border: solid 6px #FFF;
+    color:#FFF;
 }
 #blue-circle {
     align-items: center;
-}
-.rounded-circle {
     border: solid 6px #FFF;
     color:#FFF;
+}
+.rounded-circle {
+
+}
+#apple-ipad{
+    border-radius: 25px;
+    border: solid #E6E6E6 15px;
+}
+#orange-icon {
+    width: 18px;
+    height: 18px;
+    background-color: #E6563B;
+    font-weight: bolder;
+    align-items: center;
+}
+#yellow-icon {
+    width: 18px;
+    height: 18px;
+    background-color: #DEA03D;
+    font-weight: bolder;
+    align-items: center;
+}
+#green-icon {
+    width: 18px;
+    height: 18px;
+    background-color: #7CB06C;
+    font-weight: bolder;
+    align-items: center;
+}
+#blue-icon {
+    width: 18px;
+    height: 18px;
+    background-color: #00ABA9;
+    font-weight: bolder;
+    align-items: center;
 }
