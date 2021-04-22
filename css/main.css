@@ -124,3 +124,18 @@ img {
     font-weight: bolder;
     align-items: center;
 }
+
+/*NAV BAR STYLING*/
+ul{
+    display:grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-column-gap:10px;
+    justify-content: center;
+    justify-items:center;
+}
+#codeuplogo{
+    width:105px;
+    height:105px;
+    border:none;
+}
+
